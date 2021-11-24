@@ -23,8 +23,8 @@ html, body
 }
 .container
 {
-    width: 100%;
-    height: 100vh;
+   width: 100%;
+   height: 100vh;
 }
 .part1
 {
@@ -55,15 +55,18 @@ html, body
 {
     width: 50%;
     float: right;
-    padding: 100px;
-    position: relative;
+    padding: 49px 115px;
 }
 .text1
 {
     color: #000000;
     font-size: 32px;
     font-weight: 600;
-    line-height: 1.5;  
+    font-stretch: normal;
+    font-style: normal; 
+    line-height: 1.5;
+    letter-spacing: normal;
+    
 }
 input 
 {
@@ -73,12 +76,11 @@ input
     display: inline-block;
     border-bottom: 1px solid #ccc;
 }
-input[type=text], input[type=password]  
+input[type=text], input[type=password] 
 {
     color: #333333;
     font-size: 16px;
 }
-
 label
 {
     font-size: 13px;
